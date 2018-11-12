@@ -1,2 +1,2 @@
 # Lambda
-Lamba Gurls
+Lambda Gurls
