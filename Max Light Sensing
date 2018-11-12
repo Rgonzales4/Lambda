@@ -1,0 +1,7 @@
+BEGIN MaxLightSensing
+  MaxLight = 0
+  TempLight = 0 
+  DirectionLight =0
+  Rotate = 0
+  
+END MaxLightSensing
