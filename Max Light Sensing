@@ -3,6 +3,7 @@ BEGIN MaxLightSensing
   TempLight = 0 
   DirectionLight =0
   Rotate = 0
-  While EdisonRotate = True
+  While Rotate < 360:
+    
     
 END MaxLightSensing
