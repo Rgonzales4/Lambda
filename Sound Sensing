@@ -1,2 +1,20 @@
 
-BEGIN
+BEGIN MaxLightSensing
+  MaxLight = 0
+  TempLight = 0 
+  DirectionLight =0
+  Rotate = 0
+  
+  MaxLight = read light value
+  
+  WHILE Rotate < 8
+    spin right 45
+    TempLight = read light value
+    IF TempLight > MaxLight THEN
+      MaxLight = TempLight
+      DirectionLight = Rotate * 45
+    ENDIF
+    increment Rotate 
+  ENDWHILE
+  Spin right DirectionLight
+END MaxLightSensing
